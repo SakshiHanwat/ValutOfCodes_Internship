@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Chocolate Cake Recipe Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="recipe-card">
+        <div class="recipe-header">
+            <h1>Chocolate Cake</h1>
+        </div>
+        <div class="recipe-image">
+            <img src="https://media.istockphoto.com/id/2192996878/photo/individual-chocolate-mousse-hazelnut-fudge-cake.jpg?s=2048x2048&w=is&k=20&c=ezFOS3g1QNDi6oaKnnoXLy-c0pB0OSe6Cj3LDPLyerw=" alt="Chocolate Cake">
+        </div>
+        <div class="recipe-info">
+            <p><strong>Preparation Time:</strong> 45 minutes</p>
+            <p><strong>Serving Size:</strong> 8 servings</p>
+            <div class="progress-bar" id="progressBar"></div>
+            <div class="toggle-section" onclick="toggleSection('ingredients')">Show Ingredients</div>
+            <div class="content" id="ingredients">
+                <ul class="ingredients">
+                    <li>1 ¾ cups all-purpose flour</li>
+                    <li>¾ cup unsweetened cocoa powder</li>
+                    <li>2 cups granulated sugar</li>
+                    <li>1 ½ tsp baking powder</li>
+                    <li>1 ½ tsp baking soda</li>
+                    <li>1 tsp salt</li>
+                    <li>2 large eggs</li>
+                    <li>1 cup whole milk</li>
+                    <li>½ cup vegetable oil</li>
+                    <li>2 tsp vanilla extract</li>
+                    <li>1 cup boiling water</li>
+                </ul>
+            </div>
+            <div class="toggle-section" onclick="toggleSection('steps')">Show Steps</div>
+            <div class="content" id="steps">
+                <ul class="steps" id="stepList">
+                    <li>Preheat oven to 350°F (175°C). Grease and flour two 9-inch round baking pans.</li>
+                    <li>Stir together flour, cocoa, sugar, baking powder, baking soda, and salt in a large bowl.</li>
+                    <li>Add eggs, milk, oil, and vanilla; beat on medium speed for 2 minutes.</li>
+                    <li>Stir in boiling water (batter will be thin). Pour into prepared pans.</li>
+                    <li>Bake for 30-35 minutes or until a toothpick inserted in the center comes out clean.</li>
+                    <li>Cool for 10 minutes, then remove from pans and cool completely.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="timer" id="timer">Timer: Not Started</div>
+        <div class="controls">
+            <button onclick="startCooking()">Start Cooking</button>
+            <button onclick="nextStep()" id="nextButton" disabled>Next Step</button>
+            <button onclick="printRecipe()">Print Recipe</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
