@@ -1,8 +1,10 @@
-📌 Sakshi Hanwat – Developer Portfolio
+## 📌 Sakshi Hanwat – Developer Portfolio
 Welcome to my personal portfolio website!
 This project showcases my skills, education, projects, and contact information in a modern and responsive web design.
 
-🖥️ Project Overview
+---
+
+## 🖥️ Project Overview
 This portfolio is designed to highlight:
 
 👩‍💻 My skills in Web Development (HTML, CSS, JavaScript)
@@ -13,7 +15,9 @@ This portfolio is designed to highlight:
 
 📞 Easy contact options (via social links or form)
 
-🔧 Technologies Used
+---
+
+## 🔧 Technologies Used
 HTML5 – Structure & Semantic content
 
 CSS3 – Styling & Responsive Design
@@ -23,7 +27,11 @@ JavaScript
 Git & GitHub – Version Control
 
 VS Code – Code Editor
-📁 Folder Structure
+
+---
+
+## 📁 Folder Structure
+```
 Portfolio/
 ├── index.html
 ├── about.html
@@ -35,7 +43,10 @@ Portfolio/
 ├── images/
 │   └── all images used in the project
 └── README.md
-🚀 How to View
+```
+---
+
+## 🚀 How to View
 Clone this repo:
 
 bash
@@ -44,8 +55,12 @@ Edit
 git clone https://github.com/SakshiHanwat/Portfolio.git
 Open index.html in your browser.
 
-🙋‍♀️ About Me
+---
+
+## 🙋‍♀️ About Me
 I’m Sakshi Hanwat, an aspiring full-stack developer passionate about building user-friendly, clean, and accessible websites.
+
+---
 
 📬 Connect With Me
 📧 Email: hanwatsakshi900@gmail.com
